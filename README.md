@@ -13,11 +13,11 @@ venv\Scripts\activate
 pip install Django
 pip install django-bootstrap3
 
-manage.py makemigrations learning_logs
-manage.py migrate
+python manage.py makemigrations learning_logs
+python manage.py migrate
 
-manage.py runserver
-manage.py createsuperuser
+python manage.py runserver
+python manage.py createsuperuser
 
 # 访问localhost:8000/admin
 # 访问localhost:8000
