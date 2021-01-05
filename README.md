@@ -17,7 +17,7 @@ python manage.py makemigrations learning_logs
 python manage.py migrate
 
 python manage.py runserver
-python manage.py createsuperuser
+python manage.py createsuperuser
 
 # 访问localhost:8000/admin
 # 访问localhost:8000
